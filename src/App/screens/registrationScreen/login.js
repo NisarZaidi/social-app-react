@@ -15,7 +15,7 @@ export const Login = () => {
         return;
         try {
             addDoc(userCollectionRef, { email, password })
-            
+
         } catch (error) {
             console.log(error)
         }
