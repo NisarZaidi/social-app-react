@@ -13,7 +13,7 @@ export const SignUp = () => {
     const [userName, setUserName] = useState("")
     const [fatherName, setFatherName] = useState("")
     const [dateOfBirth, setDateOfBirth] = useState("")
-    const [profileImage, setProfileImage] = useState("")
+    // const [profileImage, setProfileImage] = useState("")
 
     const onSubmit = () => {
         console.log(
@@ -23,7 +23,6 @@ export const SignUp = () => {
             userName,
             fatherName,
             dateOfBirth,
-            profileImage
         )
 
     }
