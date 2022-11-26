@@ -1,0 +1,26 @@
+._row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+._column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.form{
+    text-align: center;
+};
+
+
+.heading{
+    text-align: center;
+};
+
+input{
+    height: 100px;
+    width: 130px;
+
+}

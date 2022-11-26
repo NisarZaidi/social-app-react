@@ -1,12 +1,22 @@
 import React from "react";
 import {
     Link,
-  } from "react-router-dom";
+} from "react-router-dom";
+import { Header } from "../../components";
+
+
 export const HomeScreen = () => {
-    return(
+    return (
         <>
-        <h1>Home Screen</h1>
-        <Link to="profile">My Profile</Link>
+        <Header
+        isHomeBtn = {false}
+        isTimeLineBtn = {true}
+        isProfileBtn = {true}
+        isFriendBtn = {true}
+        isChatBtn = {true}
+        isLoginBtn = {true}
+        />
+        <h1>DashBoard</h1>
         </>
     )
 }

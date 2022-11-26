@@ -1,7 +1,8 @@
 import {
     HomeScreen,
     ProfileScreen,
-    RegistrationScreen
+    Login,
+    SignUp
 } from "../screens";
 
 
@@ -15,7 +16,8 @@ export const router = createBrowserRouter(
     createRoutesFromElements(
         <Route>
             <Route path='/' element={<HomeScreen />} />
-            <Route path='/registration' element={<RegistrationScreen />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<SignUp />} />
             <Route path='/profile' element={<ProfileScreen />} />
         </Route>
     )

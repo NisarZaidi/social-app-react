@@ -1,0 +1,27 @@
+.header{
+    color: blue;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 0.5px solid gray;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.nav_btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.nav_btns button{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}

@@ -1,7 +1,2 @@
-import React from "react";
-
-export const RegistrationScreen = () => {
-    return(
-        <h1>Reistration Screen</h1>
-    )
-}
+export {Login} from "./login"
+export {SignUp} from "./signUp"
